@@ -67,7 +67,7 @@ app.get("/pokemon", (req, res) => {
   ]);
 });
 
-app.get("/users", (req, res) => {
+app.post("/series", (req, res) => {
   res.json([
     {
       id: 1,
