@@ -67,6 +67,23 @@ app.get("/pokemon", (req, res) => {
   ]);
 });
 
+app.get("/users", (req, res) => {
+  res.json([
+    {
+      id: 1,
+      name: "Broklinn 99",
+    },
+    {
+      id: 2,
+      name: "Joven Sheldon",
+    },
+    {
+      id: 3,
+      name: "The Flash",
+    },
+  ]);
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
