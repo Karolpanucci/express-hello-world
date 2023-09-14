@@ -12,6 +12,11 @@ app.get('/req', (req, res) => {
     res.send('Yo!')
 })
 
+app.get('/meunome', (req, res) => {
+  console.log("Meu nome!!!!")
+  res.send('eu sou karolainny Panucci')
+})
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
